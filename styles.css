@@ -1,0 +1,89 @@
+/* Default settings for all slides */
+/* Default settings for all slides */
+body {
+  color: #FFFFFF; /* Default text color */
+}
+
+/* Background and transparency for Slide 3 */
+.reveal .slides section:nth-of-type(3)::before {
+  content: "";
+  background: url('AI.png') no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3; /* Adjust opacity as needed */
+}
+
+.reveal .slides section:nth-of-type(3) {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay to enhance transparency */
+  color: white;
+   font-size: 0.7em;
+}
+
+/* Background and transparency for Slide 4 */
+.reveal .slides section:nth-of-type(4)::before {
+  content: "";
+  background: url('Information.png') no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3; /* Adjust opacity as needed */
+}
+
+.reveal .slides section:nth-of-type(4){
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5); /* Light overlay to enhance transparency */
+  color: white;
+  font-size: 0.7em;
+}
+
+/* Background and transparency for Slide 5 */
+.reveal .slides section:nth-of-type(5)::before {
+  content: "";
+  background: url('Spontaneous.png') no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3; /* Adjust opacity as needed */
+}
+
+.reveal .slides section:nth-of-type(5){
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5); /* Light overlay to enhance transparency */
+  color: white;
+  font-size: 0.7em;
+}
+
+/* Background and transparency for Slide 6 */
+.reveal .slides section:nth-of-type(6):before {
+  content: "";
+  background: url('Emotion.png') no-repeat center center;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.3; /* Adjust opacity as needed */
+}
+
+.reveal .slides section:nth-of-type(6) {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay to enhance transparency */
+  color: white;
+  font-size: 0.7em;
+}
